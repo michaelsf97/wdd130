@@ -1,0 +1,2 @@
+<a href="week01/images/favorite-city.html">Favorite City</a>
+<a href="index.html">Home</a>
