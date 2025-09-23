@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise: Block vs. Inline Elements</title>
     <link rel="stylesheet" href="styles/block-vs-inline.css">
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+
+        .callout {
+            border: 2px solid #0074D9;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        .active {
+            border-color: red;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -24,17 +40,31 @@
         <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; inside the paragraph. Observe
             how it flows within the line.</p>
 
+
         <h2>Task3: Nesting Block in Inline</h2>
         <span>Try placing a &lt;div&gt; inside a &lt;span&gt; element.</span>
-            <p class="question">What error or layout issue do you see? Why does this happen?</p>
+        <p class="question">What error or layout issue do you see? Why does this happen?</p>
 
+        <div id="note">
+            <p>testing the <code>note</code> ID.</p>
+        </div>
 
-            <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
+        </div>
+        <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
         &lt;img&gt; element
-        <img src="images/castle.webp" alt="placeholder image (images are inline)" width="300" height="300">
+        <img src="images/castle.webp"
+            alt="Large fairytale castle with multiple tall spires and flags, surrounded by lush gardens and trees, festive banners strung across the scene, bright and cheerful atmosphere, no visible text"
+            width="300" height="300">
         <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor element</a>
-        <button type="button">&lt;button&gt; element</button>
+        <div class="callout highlight active">
+            <p>This is a callout box with a <span class="highlight">&lt;span&gt; element</span> inside.
+                <a
+                    href="https://id.churchofjesuschrist.org/oauth2/default/v1/authorize?state=QjZmNUhGL1lTVGpXSksrT1dWbHBIZ1ZlOFpxSmY1RnVaU1BVQUpkNlVsWlhsTFBlb2Vhbkh0YWF3U2tOK01BcQ&nonce=mooS97q9J2cgr9YWozUqR6_pHSxfVl0_&client_id=0oafj6dbfvEvMIGet357&redirect_uri=https%3A%2F%2Fauth.ceslogin.org%2Foauth2%2Fv1%2Fauthorize%2Fcallback&response_type=code&display=page&scope=cmisid+openid+profile+email">&lt;a&gt;
+                    Web</a>
+            <p> This is an image box with <span class="highlight">&lt;span&gt; WEBSITE</span> </p>
+
     </main>
+    <!-- This is a comment in HTML -->
 </body>
 
 </html>
