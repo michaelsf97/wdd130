@@ -11,8 +11,23 @@ body {
     color: var(--accent1-color);
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px; /* optional: space between boxes */
+    justify-content: center; /* centers the grid items horizontally */
+    margin: 40px auto; /* centers the grid container on the page */
+    max-width: 900px; /* optional: limits the grid width */
+}
 
-
+.flex-container {
+  display: flex;
+  /* Optional properties for layout: */
+  justify-content: center; /* Aligns items horizontally */
+  align-items: center;     /* Aligns items vertically */
+  gap: 20px;               /* Space between items */
+}
+ 
 :root {
     --primary-color: #222422 /* forest green*/;
     --secondary-color: #e39555 /* warm sand*/;
@@ -69,4 +84,8 @@ nav, p, section, article {
 display: block;
 width: 100%;
 height:  auto;
+}
+
+.grid-column {
+    grid-column: span 3;
 }

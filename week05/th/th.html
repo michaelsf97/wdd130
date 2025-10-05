@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Playground</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f7fa;
+      color: #333;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .container {
+      display: flex;
+      /* Activate flexbox */
+      border: 3px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      background: white;
+      height: 200px;
+      /* For visualization */
+      margin-bottom: 40px;
+      transition: all 0.5s ease;
+    }
+
+    .item {
+      flex-grow: 4;
+      /* Equal width by default */
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+
+    .item:nth-child(1) {
+      background: #ff6b6b;
+    }
+
+    .item:nth-child(2) {
+      background: #4ecdc4;
+    }
+
+    .item:nth-child(3) {
+      background: #1a535c;
+    }
+
+    /* Different flex direction demos */
+    .row {
+      flex-direction: row;
+    }
+
+    .rowReverse {
+      flex-direction: row-reverse;
+    }
+
+    .column {
+      flex-direction: column;
+    }
+
+    .columnRev {
+      flex-direction: column-reverse;
+    }
+
+    .code {
+      background: #222;
+      color: #0f0;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: monospace;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🎯 CSS Flexbox Directions Demo</h1>
+  <h2>⿡ flex-direction: row;</h2>
+  <div class="container row">
+    <div class="item">1</div>
+    <d
