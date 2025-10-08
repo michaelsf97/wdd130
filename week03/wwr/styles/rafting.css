@@ -46,6 +46,29 @@ header,main,footer {
     margin: 0 auto;
 }
 
+.nav-buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 40px;               /* Space between buttons */
+    margin: 24px 0;
+}
+
+.nav-buttons a {
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.nav-buttons a:hover {
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+}
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
