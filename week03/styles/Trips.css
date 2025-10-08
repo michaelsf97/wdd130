@@ -1,0 +1,92 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-box {
+    position: absolute;
+    top: 20px; /* distance from top */
+    left: 20px; /* distance from left */
+    background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    
+}
+
+body {
+    background-image: url('../wwr/images/rafting20_600.jpg');   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #264653;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #e9c46a;
+    color: #264653;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 24px 0;
+    text-align: center;
+}
+
+.highlight {
+    color: #0905f9;
+    font-family: cursive;
+
+}
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff; /* Add this line */
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #264653;
+    color: #fff;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
+    color: #eef2f3;
+}

@@ -29,7 +29,7 @@ body {
 }
  
 :root {
-    --primary-color: #222422 /* forest green*/;
+    --primary-color: rgba(10, 10, 10, 0.952); /* forest green*/;
     --secondary-color: #e39555 /* warm sand*/;
     --accent1-color: #264653; /*dark slate blue*/
     --accent2-color: #e9c46a; /* light golden yellow*/
@@ -111,4 +111,27 @@ height:  auto;
 
 .grid-column {
     grid-column: span 3;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.overlay-box {
+    position: absolute;
+    top: 10px; /* distance from top */
+    left: 230px; /* distance from left */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.701); /* semi-transparent black */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
 }
