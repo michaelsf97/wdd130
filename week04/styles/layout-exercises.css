@@ -66,4 +66,5 @@ justify-content: space-around;
 .three {
     margin: .25rem;
     background-color: #abd;
+    justify-content: space-around;
 }
