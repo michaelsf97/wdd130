@@ -1,0 +1,10 @@
+   body {
+            background-image: url('images/colombia-1460312_960_720.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+        }
+        .highlight {
+            color: black;
+        }
