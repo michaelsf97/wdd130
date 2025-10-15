@@ -13,26 +13,26 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    gap: 20px; /* optional: space between boxes */
-    justify-content: center; /* centers the grid items horizontally */
-    margin: 40px auto; /* centers the grid container on the page */
-    max-width: 900px; /* optional: limits the grid width */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-content: center; 
+    margin: 40px auto; 
+    max-width: 900px; 
 }
 
 .flex-container {
   display: flex;
-  /* Optional properties for layout: */
-  justify-content: center; /* Aligns items horizontally */
-  align-items: center;     /* Aligns items vertically */
-  gap: 20px;               /* Space between items */
+  
+  justify-content: center; 
+  align-items: center;     
+  gap: 20px;               
 }
  
 :root {
-    --primary-color: rgba(10, 10, 10, 0.952); /* forest green*/;
-    --secondary-color: #e39555 /* warm sand*/;
-    --accent1-color: #264653; /*dark slate blue*/
-    --accent2-color: #e9c46a; /* light golden yellow*/
+    --primary-color: rgba(10, 10, 10, 0.952);
+    --secondary-color: #e39555;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -48,8 +48,8 @@ header,main,footer {
 
 .nav-buttons {
     display: flex;
-    justify-content: center; /* Center the buttons horizontally */
-    gap: 40px;               /* Space between buttons */
+    justify-content: center;
+    gap: 40px;               
     margin: 24px 0;
 }
 
@@ -79,9 +79,9 @@ h1, h2 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #111111; /* white text - make sure there is enough contrast with the background-color */
+    color: #111111; 
     position: relative;     
-    z-index: 1; /* Ensure the heading is above other content */
+    z-index: 1; 
 }
 
 
@@ -125,10 +125,10 @@ height:  auto;
 
 .overlay-box {
     position: absolute;
-    top: 10px; /* distance from top */
-    left: 230px; /* distance from left */
+    top: 10px; 
+    left: 230px; 
     text-align: center;
-    background: rgba(0, 0, 0, 0.701); /* semi-transparent black */
+    background: rgba(0, 0, 0, 0.701); 
     color: #fff;
     padding: 20px;
     border-radius: 8px;

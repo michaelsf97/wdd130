@@ -10,9 +10,9 @@
 
 .overlay-box {
     position: absolute;
-    top: 20px; /* distance from top */
-    left: 20px; /* distance from left */
-    background: rgba(0, 0, 0, 0.6); /* semi-transparent black */
+    top: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -65,7 +65,7 @@ body {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: #fff; /* Add this line */
+    background-color: #fff; 
 }
 
 th, td {
