@@ -10,3 +10,10 @@ body {
     color: black;
     background-color: yellow;
 }
+
+main img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
