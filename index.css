@@ -4,7 +4,11 @@
     --heading-font:'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
     --border: 1px solid rgb(0 0 0 / 0.2);
+    --card-radius: 8px;
+    --tilt-angle: 0deg;
 }
+
+
 
 .center-nav {
             text-align: center;
@@ -65,16 +69,26 @@
             padding: 1rem;               /* Added padding */
             background-color: #fff;      /* Added background color */
             color: #333;                 /* Added text color */
-            border-radius: 8px;
+            border-radius: var(--card-radius);
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
             text-align: center;
             padding: var(--padding);
+            --card-radius: 8px;
+            --tilt-angle: 0deg;
         }
 
         aside img {
             width: 200px;   /* Set width to 200px as required */
             height: auto;   /* Keep aspect ratio */
             border-radius: 8px;
+        }
+
+        aside:hover {
+            --card-radius: 20px;
+            --tilt-angle: 3deg;
+            border-radius: var(--card-radius);
+            transform: rotate(var(--tilt-angle));
+            transition: border-radius 300ms ease, transform 300ms ease;
         }
 
         footer {
