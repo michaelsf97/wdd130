@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="poll-form.css">
+</head>
+
+
+<main>
+    <header>WDD130 | HTML Form - User Poll</header>
+    <form>
+        <label> Full Name: <input type="text" name="fullname" required></label>
+        <label>Email: <input type="email" name="useremail" required></label>
+    </form>
+
+    <form>
+        <label for="browser"> What is your favorite internet browser?</label>
+        <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="Edge">Edge</option>
+            <option value="Brave">Brave</option>
+            <option value="Other">Other</option>
+
+        </select>
+
+        <label for="pet"> Do you have a household Pet?<input type="checkbox" id="pet" name="pet" value="yes"></label>
+        <label for="Feedback">Provide a list of places you have lived:<input type="textarea" id="Feedback"
+                name="Feedback" Rows="4" Placeholder="Enter places there"></label>
+
+        <label for=" quantity">Select
+            Quantity:</label>
+        <select id="quantity" name="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button type="submit">Submit Poll</button>
+    </form>
+
+    <body>
+
+    </body>
+
+    <footer>
+
+
+    </footer>
+
+</html>
