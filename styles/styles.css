@@ -59,12 +59,12 @@ nav a {
             display: block;
             margin: 20px auto;
             max-width: 100%;
-            width: 300px; /* Example width */
-            height: auto; /* Keeps aspect ratio */
+            width: 300px; 
+            height: auto; 
             border-radius: 8px;
-            border: 2px solid #ccc; /* Added border */
-            padding: 8px;           /* Added padding */
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Added box-shadow */
+            border: 2px solid #ccc; 
+            padding: 8px;           
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15); 
         }
 
         .temple-image-small {
@@ -85,13 +85,21 @@ nav a {
             text-align: center;
         }
 
+        main img {
+            width: 300px;
+            height: auto;
+            border: 2px solid #ccc;
+            padding: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
         aside {
-            width: 350px;                /* Added width */
-            margin: 2rem auto;           /* Centered with margin */
-            border: 2px solid #ccc;      /* Added border */
-            padding: 1rem;               /* Added padding */
-            background-color: #fff;      /* Added background color */
-            color: #333;                 /* Added text color */
+            width: 350px;              
+            margin: 2rem auto;           
+            border: 2px solid #ccc;      
+            padding: 1rem;               
+            background-color: #fff;     
+            color: #333;                 
             border-radius: var(--card-radius);
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
             text-align: center;
@@ -101,8 +109,8 @@ nav a {
         }
 
         aside img {
-            width: 200px;   /* Set width to 200px as required */
-            height: auto;   /* Keep aspect ratio */
+            width: 200px;   
+            height: auto;   
             border-radius: 8px;
         }
 
