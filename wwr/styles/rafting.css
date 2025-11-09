@@ -35,13 +35,14 @@ body {
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --text-light: #ffffff;
 }
 .float-up {
-    float: up;
+    float: auto;
 }
 header,main,footer {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--text-light);
     width: 840px;
     margin: 0 auto;
 }
@@ -65,15 +66,15 @@ header,main,footer {
 }
 
 .nav-buttons a:hover {
-    background-color: var(--accent2-color);
-    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     position: absolute;
-    top: 20 px;
+    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -104,9 +105,30 @@ nav, p, section, article {
 }
 
 .hero img {
-display: block;
-width: 100%;
-height:  auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
 }
 
 .grid-column {
