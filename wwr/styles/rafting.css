@@ -38,7 +38,7 @@ body {
     --text-light: #ffffff;
 }
 .float-up {
-    float: auto;
+    float: right;
 }
 header,main,footer {
     background-color: var(--primary-color);
