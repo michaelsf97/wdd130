@@ -6,9 +6,9 @@
 
 
 body {
-
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--text-light);
+    background-color: var(--primary-color);
 }
 
 .grid-container {
@@ -126,6 +126,7 @@ nav, p, section, article {
     bottom: 20px;
     right: 20px;
     background-color: rgba(255, 255, 255, 0.9);
+    color: var(--accent1-color);
     padding: 20px;
     border-radius: 8px;
     max-width: 300px;
