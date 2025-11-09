@@ -91,6 +91,14 @@ nav, p, section, article {
     padding: 8px;
 }
 
+section {
+    color: var(--text-light);
+}
+
+section h2 {
+    color: var(--accent2-color);
+}
+
 .hero article img {
     float: right;
     width: 125px;
