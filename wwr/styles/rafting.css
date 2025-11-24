@@ -7,8 +7,8 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--text-light);
-    background-color: var(--primary-color);
+    color: rgb(10 10 10 / 95%);
+    background-color: rgb(38 70 83);
 }
 
 .grid-container {
