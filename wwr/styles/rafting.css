@@ -86,8 +86,7 @@ h1, h2 {
 }
 
 h1 {
-    color: #e9c46a;
-
+    color: #fff; /* or #e9c46a for a gold/yellow */
 }
 
 nav, p, section, article {
