@@ -182,3 +182,7 @@ section h2 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.12);
     border: 2px solid #eee;
 }
+
+.map-frame {
+    border-radius: 15px;
+}

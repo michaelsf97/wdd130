@@ -7,14 +7,14 @@
     <meta name="author" content="Michael Smith Saavedra Forero">
     <meta name="description" content="Contact us for some purchases, do not be shy">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
         <img src="images/z-therapidssplash.jpg" alt="People rafting on a river" width="250" height="120">
         <nav class="nav-buttons">
-            <a href="rafting.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="trips.html">Trips</a>
             <a class="contact-btn" href="contact.html">Contact</a>
@@ -31,14 +31,23 @@
             <li><strong>Phone: (+57) 315-9024-712</strong></li>
             <li><strong>Address: 123 River Road, Adventure City</strong></li>
         </ul>
-        <iframe src="https://www.google.com/maps/embed?pb=..." width="400" height="300" style="border-radius: 15px;"
+        <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=..." width="400" height="300"
             allowfullscreen="" loading="lazy"></iframe>
+
         <form>
+            <p> Preferred Contact Method</p>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <br>
+            <input type="radio" id="name" name="name" required>
+
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+
+            <label for="contact-phone">Phone:</label>
+            <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+
+
+            <br>
+
             <br>
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
