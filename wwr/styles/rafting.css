@@ -85,6 +85,10 @@ h1, h2 {
     z-index: 1; 
 }
 
+h1 {
+    color: #e9c46a;
+
+}
 
 nav, p, section, article {
     margin: 16px;
